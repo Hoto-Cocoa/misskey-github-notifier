@@ -1,0 +1,13 @@
+node_modules
+config.json
+config.json*
+npm-debug.log
+Dockerfile
+.dockerignore
+.editorconfig
+README.md
+LICENSE
+.git
+.gitignore
+docker-compose.yml
+compose.yml

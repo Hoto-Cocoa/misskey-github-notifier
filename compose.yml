@@ -1,0 +1,6 @@
+services:
+  webhook:
+    image: ghcr.io/hoto-cocoa/misskey-github-notifier:latest
+    restart: always
+    volumes:
+      - ./config.json:/app/config.json:ro
